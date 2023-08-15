@@ -1,3 +1,4 @@
+package Fatec.src;
 public class Consulta_Fatec {
 public static void main(String[] args) {
     //variavel de instancia
