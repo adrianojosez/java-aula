@@ -14,7 +14,8 @@ System.out.println("MARCA: "+marca);
 System.out.println("MODELO: " + modelo);
 
 System.out.println("COR: " + cor);
- System.out.println("PRECO: " + preco);
+
+System.out.println("PRECO: " + preco);
 
 }
 }
