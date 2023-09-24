@@ -1,3 +1,5 @@
+package contuibuinte;
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -51,20 +53,20 @@ public static void main (String [] args){
         L5.setForeground(Color.gray);
 
         T1 = new JTextField();
-        T1.setBackground(Color.white);
         T1.setBackground(Color.black);
+        T1.setBackground(Color.white);
 
         T2 = new JTextField();
-        T2.setBackground(Color.white);
         T2.setBackground(Color.black);
+        T2.setBackground(Color.white);
 
         T3 = new JTextField();
-        T3.setBackground(Color.white);
         T3.setBackground(Color.black);
+        T3.setBackground(Color.white);
 
         T4 = new JTextField();
-        T4.setBackground(Color.white);
         T4.setBackground(Color.black);
+        T4.setBackground(Color.white);
 
         C1 = new JCheckBox("Pessoa Física");
         C2 = new JCheckBox("Pessoa Jurídica");
@@ -105,14 +107,13 @@ public static void main (String [] args){
         receita.setCPF(b);
         receita.setCNPJ(c);
         receita.setCartao(d);
-
+        
         System.out.println("IDENTIFICAÇÃO DO CONTRIBUINTE\t" + receita.getNome());
         System.out.println("CARTÃO DO CONTRIBUINTE OU EMPRESA\t" + receita.getCartao());
         if (j1 == true)
             System.out.println("CPF DO CONTRIBUINTE\t" + receita.getCPF());
         if (j2 == true)
-            System.out.println("CNPJ DO CONTRIBUINTE\t" + receita.getCPF());
+            System.out.println("CNPJ DO CONTRIBUINTE\t" + receita.getCNPJ());
     } // fim do método informa_dados()
 
 } // fim da classe Informa_Dados
-
